@@ -1,12 +1,17 @@
-.header {
+#header {
     text-align: center;
     text-decoration: underline;
+    font-size: 22pt;
+    font-weight: bold;
     margin-top: 50px;
     margin-bottom: 40px;
 }
 
 html body {
-    background-color: rgba(255, 218, 192, 0.473);
+    color: #404040;
+    background-color: white;
+    font-size: 11pt;
+    font-family: serif;
 }
 
 .card-group {
@@ -14,7 +19,7 @@ html body {
     justify-content: center;
     gap: 25px;
     flex-wrap: wrap;
-    
+
 }
 
 .destination {
@@ -26,7 +31,7 @@ html body {
 }
 
 #otherBox {
-    background-color: white;
+    background-color: rgba(165, 42, 42, 0.106);
     color: black;
     padding: 50px;
     width: 280px;
@@ -43,36 +48,61 @@ html body {
     margin-bottom: 10px;
 }
 
-.button{
-    
+.button {
+
     color: white;
     margin-top: 20px;
     background-color: rgba(165, 42, 42, 0.483);
     border-color: rgba(165, 42, 42, 0.483);
 }
 
-.date{
+.date {
     text-align: center;
     margin-top: 40px;
-    color:rgba(165, 42, 42, 0.483);
+    color: rgba(165, 42, 42, 0.483);
 }
 
-.border{
+.border {
     margin-top: 50px;
     justify-content: center;
     text-align: center;
-    max-width: 800px;         
-    padding: 0 20px; 
+    max-width: 800px;
+    padding: 0 20px;
     background-color: white;
-    
+
 }
 
-.h3class{
-     margin-top: 50px;
+.h3class {
+    margin-top: 50px;
     margin-bottom: 40px;
 }
 
-.card-text{
-     margin-top: 50px;
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-align: left;
+    font-size: 18pt;
+    font-weight: normal;
+    text-decoration: underline;
+}
+
+.card-text {
+    margin-top: 50px;
     margin-bottom: 40px;
+}
+
+ol,
+ul {
+    padding-left: 0;
+    text-align: center;
+    list-style-position: inside
+}
+
+#blockquote {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    background-color: #FFFFA8;
+    font-style: italic;
 }
