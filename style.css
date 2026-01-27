@@ -7,15 +7,14 @@
     margin-bottom: 40px;
 }
 
-html body {
+html body#backgroundphoto{
+    background-image:url(pictures/background.png);
     color: #404040;
     background-color: white;
     font-size: 11pt;
     font-family: serif;
 }
-#backgroundphoto{
-    background-image:url(pictures/background.png);
-}
+
 .card-group {
     display: flex;
     justify-content: center;
