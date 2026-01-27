@@ -5,7 +5,7 @@
     margin-bottom: 40px;
 }
 
-body {
+html body {
     background-color: rgba(255, 218, 192, 0.473);
 }
 
@@ -14,6 +14,7 @@ body {
     justify-content: center;
     gap: 25px;
     flex-wrap: wrap;
+    
 }
 
 .destination {
@@ -63,5 +64,15 @@ body {
     max-width: 800px;         
     padding: 0 20px; 
     background-color: white;
+    
 }
 
+.h3class{
+     margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.card-text{
+     margin-top: 50px;
+    margin-bottom: 40px;
+}
